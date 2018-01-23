@@ -7,8 +7,9 @@ module.exports = {
     entry: './client/main.js',
     output: {
         path: __dirname,
-        filename: './server/static/scripts/bundle.js'
+        filename: './server/src/static/scripts/bundle.js'
     },
+    devtool: 'source-map',
     module: {
         rules: [
             {
